@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>COVID-19 Probability Dectector!</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Covid-19 Detector</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+  </div>
+</nav>
+
+<!-- Here we will show the Probability Persentage and result-->
+
+<div class="container"> 
+  <h2 class="mt-3">Corona virus Probability Detector</h2><hr>
+<!--This line shows the infection percentage-->
+  <p>Patients Probability Percentage of infection is : {{inf}}%. Thank You! <br/>
+
+  <!--This will shows person is Covid-19 positive (or) negative-->
+  <h4>Result : </h4><hr>
+    Patients is {{result}}<br><br>
+
+    <!-- Button for returning to the home -->
+    <a href="/">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="success">Go Back</button>
+    </a>
+    <br><br>
+    
+    <!--Some normal text-->
+    <h4>Advice </h4><hr>
+    <h5>Do's : : </h5><br><ol><li>
+    Practice frequent hand washing. Wash hands with soap and water or use alcohol based hand rub. Wash hands even if they are visibly clean
+    </li>
+    <li>Cover your nose and mouth with handkerchief/tissue while sneezing and coughing</li>
+    <li>Throw used tissues into closed bins immediately after use</li>
+    <li>See a doctor if you feel unwell (fever, difficult breathing and cough). While visiting doctor wear a mask/cloth to cover your mouth and nose</li>
+    <li>If you have these signs/symptoms please call State helpline number or Ministry of Health & Family Welfare’s 24X7 helpline at 011-23978046</li>
+    <li>Avoid participating in large gatherings</li>
+    </ol><br>
+    <h5>Dont's :</h5><br><ol>
+    <li>Have a close contact with anyone, if you’re experiencing cough and fever</li>
+    <li>Touch your eyes, nose and mouth</li>
+    <li>Spit in public</li>
+    </ol>
+    </p>
+</div>
+
+
+<div class="card text-center">
+  <div class="card-body">
+    <p class="card-title"><h1>Together we can fight Coronavirus</h1></p>
+  </div>
+
+
+<!-- Footer section -->
+  <div class="card-body">
+    <h5 class="card-title">For further information :</h5>
+    <p class="card-text">Call at Ministry of Health, Govt. of India’s  24X7 control room number</p>
+    <p class="card-text">+91-11-2397 8046</p>
+    <p class="card-text">Email at ncov2019@gmail.com</p>
+  </div>
+
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
